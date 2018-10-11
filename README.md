@@ -8,10 +8,10 @@ Run with Windows powershell
 
 ```
 
-**for local environment**
+for local environment
 $env:NODE_ENV="staging"
 
-**for production environment**
+for production environment
 $env:NODE_ENV="production"
 
 node index.js
@@ -23,10 +23,10 @@ Run with windows CMD
 
 ```
 
-**for local environment**
+for local environment
 set NODE_ENV=staging&&node index.js
 
-**for production environment**
+for production environment
 set NODE_ENV=production&&node index.js
 
 ```
@@ -35,10 +35,10 @@ Mac & linux (GNU)
 
 ````
 
-**for local environment**
+for local environment
 NODE_ENV=staging node index.js
 
-**for production environment**
+for production environment
 NODE_ENV=production node index.js
 
 ````
