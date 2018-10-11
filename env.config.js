@@ -26,8 +26,9 @@ environments.production = {
 const 
     // Determinate environment by command-line argument
     currentEnvironment = typeof(process.env.NODE_ENV) == "string" ? process.env.NODE_ENV.toLowerCase():"",
+    
     // Check current environment is one of disponible environments, if not, default to staging
     environmentToExport = typeof(environments[currentEnvironment]) == "object" ? environments[currentEnvironment] : environments.staging;
-
+    
 // Export module
 module.exports = environmentToExport;

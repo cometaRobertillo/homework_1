@@ -8,7 +8,7 @@
 "use strict";
 
 // Set getDate service
-let getDate = (date,callback)=>{
+const getDate = (date,callback)=>{
 
     // Set response
     let response = {};

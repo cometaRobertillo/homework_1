@@ -8,7 +8,7 @@
 "use strict";
 
 // Not found handler
-let notFound = (data, callback) =>{
+const notFound = (data, callback) =>{
 
     // Callback route not found
     callback(404);

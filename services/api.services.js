@@ -13,7 +13,7 @@ const
     DATEPROVIDER = require("./DateProvider/date.services");
 
 // Define handlers
-const handlers = {};
+let handlers = {};
 
 // Ping handler
 handlers.ping = (data, callback) => {
@@ -29,7 +29,7 @@ handlers.notFound = ERRORPROVIDER.notFound;
 handlers.date = DATEPROVIDER.getDate;
 
 // Define request router
-const router = {
+let router = {
     "ping": handlers.ping,
     "date": handlers.date
 };
