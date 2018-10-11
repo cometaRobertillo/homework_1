@@ -51,5 +51,16 @@ pass arguments, http is set default value
 node index.js https
 
 ````
+# API
+
+__routes available__
+````
+see if server is alive
+/ping
+
+get date now
+/date
+
+````
 
 ## RGR
